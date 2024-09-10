@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Completa este formulario</h1>
+    <form id="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="cosas">Seleccione una opción:</label>
+        <select id="cosas" name="cosas" required>
+            <option value="" disabled selected>Elige una</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
